@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/wanakana"></script>
+
+    <style>
+      body {
+        background: #011627;
+        color: #fdfffc;
+      }
+      .card {
+        width: 300px;
+        height: 500px;
+        margin: 0 auto;
+        text-align: center;
+        border: 1px dashed #2ec4b6;
+      }
+
+      #kanji {
+        font-family: "Noto Sans", sans-serif;
+        font-size: 80px;
+      }
+
+      input {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="card">
+        <p id="kanji">漢</p>
+        <input type="text" name="answer" id="answer" />
+        <p id="status"></p>
+      </div>
+    </div>
+
+    <script src="src/index.ts"></script>
+  </body>
+</html>
